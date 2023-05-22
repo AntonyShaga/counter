@@ -1,12 +1,13 @@
-.counter {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.button {
+    width: 200px;
+    height: 50px;
 
-  height: 300px;
-  width: 500px;
-  font-size: 100px;
-  font-weight: bolder;
-  background-color: aqua;
-  border-radius: 20px;
+    background-color: aqua;
+    border: transparent;
+    cursor: pointer;
+
+    border-radius: 10px;
+
+    font-size: 30px;
+    font-weight: bolder;
 }
