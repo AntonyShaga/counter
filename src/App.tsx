@@ -2,17 +2,9 @@ import React, {useState} from 'react';
 import './App.css';
 import {Counter} from "./components/counter/Counter";
 import Button from "./components/Button/Button";
+import {CountObjType} from "./render";
 
-type CountObjType = {
-    countObj: CountObjectType
-}
-type CountObjectType =  {
-    initialCount: number
-    reset: number
-    maxCount: number
-    disabledIncrease: boolean
-    disabledReset: boolean
-}
+
 const App: React.FC<CountObjType> = (
     {
         countObj

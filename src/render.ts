@@ -6,3 +6,13 @@ export const countObj = {
     disabledIncrease:false,
     disabledReset:false
 }
+export type CountObjType = {
+    countObj: CountObjectType
+}
+type CountObjectType =  {
+    initialCount: number
+    reset: number
+    maxCount: number
+    disabledIncrease: boolean
+    disabledReset: boolean
+}
